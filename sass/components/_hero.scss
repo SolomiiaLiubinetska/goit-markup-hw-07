@@ -1,0 +1,26 @@
+.hero {
+    text-align: center;
+    background-color: rgba(47, 48, 58, 0.4);
+    background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    .hero-title {
+        margin-top: 0;
+        margin-bottom: 30px;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.363;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: $wightColor;
+        /*outline: 2px solid tomato;*/
+    }
+    .hero-padding {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        scroll-padding-left: 452px;
+        scroll-padding-right: 452px;
+    }
+}

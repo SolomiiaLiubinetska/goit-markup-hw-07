@@ -1,0 +1,38 @@
+.section.our-clients {
+    padding-bottom: 101px;
+}
+
+.client-items {
+    display: flex;
+}
+
+.client-items .iten .client-link {
+    display: flex;
+    width: 170px;
+    height: 90px;
+    padding: 20px 45px;
+    border: 1px solid #afb1b8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.client-items .iten+.iten {
+    margin-left: 30px;
+}
+
+.client-items .icon-clients {
+    fill: #AFB1B8;
+}
+
+.client-items .client-link:hover,
+.client-items .client-link:focus {
+    border: 1px solid $accent;
+    fill: $accent;
+    outline-color: $accent;
+}
+
+.client-items .client-link:hover .icon-clients,
+.client-items .client-link:focus .icon-clients {
+    fill: $accent;
+    outline-color: transparent;
+}

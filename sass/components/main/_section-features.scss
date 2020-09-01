@@ -1,0 +1,71 @@
+.section {
+    padding-top: 94px;
+    padding-bottom: 89px;
+    &-title,
+    &-subtitle {
+        color: $title-text-color;
+    }
+    &-title {
+        margin-top: 0;
+        margin-bottom: 50px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.166;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+    &-subtitle {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.142;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+    .text {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+    }
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    & .iten {
+        width: 270px;
+    }
+}
+
+.features .iten::before {
+    display: block;
+    height: 120px;
+    content: "";
+    background: #f5f4fa;
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.features .iten:nth-child(1)::before {
+    background-image: url(../images/osobennosti/antenna.svg);
+}
+
+.features .iten:nth-child(2)::before {
+    background-image: url(../images/osobennosti/clock.svg);
+}
+
+.features .iten:nth-child(3)::before {
+    background-image: url(../images/osobennosti/diagram.svg);
+}
+
+.features .iten:nth-child(4)::before {
+    background-image: url(../images/osobennosti/astronaut.svg);
+}
